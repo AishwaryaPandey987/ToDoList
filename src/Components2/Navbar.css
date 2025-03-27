@@ -1,0 +1,47 @@
+/* Navbar.css */
+
+/* General Navbar styles */
+.navbar {
+    background-color: #f8f9fa; /* Light background for navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    top: 0; /* adjust as necessary */
+   left: 0;
+   width: 100%; /* or desired width */
+ 
+   z-index: 10; /* higher number */
+}
+
+/* Navbar brand styles */
+.navbar-brand {
+    font-size: 1.5rem; /* Increase font size */
+    font-weight: bold; /* Bold font */
+    color: #333; /* Dark color for brand */
+}
+
+/* Navbar link styles */
+.nav {
+    margin-right: 20px; /* Spacing between nav items */
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff; /* Border color */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Bootstrap danger color */
+    border-color: #dc3545; /* Border color */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        flex-direction: column; /* Stack items */
+        align-items: flex-start; /* Align to left */
+    }
+
+    .nav {
+        gap: 10px; /* Adjust spacing for mobile */
+    }
+}
